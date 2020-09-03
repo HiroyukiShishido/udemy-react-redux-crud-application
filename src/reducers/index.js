@@ -1,4 +1,4 @@
-import { combinReducers } from 'redex'
+import { combineReducers } from 'redux'
 import count from './count'
 
-export default combainRedusers({ count })
+export default combineReducers({ count })
